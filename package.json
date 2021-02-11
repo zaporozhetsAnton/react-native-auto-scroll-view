@@ -14,6 +14,10 @@
     "lint": "eslint 'src/**/*' --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "eslint 'src/**/*' --quiet --fix"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaporozhetsAnton/react-native-auto-scroll-view.git"
+  },
   "author": "Anton Zaporozhets",
   "license": "MIT",
   "dependencies": {
@@ -26,5 +30,6 @@
     "eslint-config-airbnb-typescript-prettier": "^4.1.0",
     "prettier": "^2.2.1",
     "typescript": "^4.1.5"
-  }
+  },
+  "homepage": "https://github.com/zaporozhetsAnton/react-native-auto-scroll-view"
 }
