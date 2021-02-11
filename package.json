@@ -1,6 +1,6 @@
 {
   "name": "react-native-auto-scroll-view",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react-native ScrollView component with auto-scrolling",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -20,9 +20,9 @@
   },
   "author": "Anton Zaporozhets",
   "license": "MIT",
-  "dependencies": {
-    "react": "^17.0.1",
-    "react-native": "^0.63.4"
+  "peerDependencies": {
+    "react": ">=16.8.6",
+    "react-native": ">=0.60.5"
   },
   "devDependencies": {
     "@types/react-native": "^0.63.48",
