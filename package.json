@@ -1,0 +1,30 @@
+{
+  "name": "react-native-auto-scroll-view",
+  "version": "1.0.0",
+  "description": "react-native ScrollView component with auto-scrolling",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "prepare": "npm run build",
+  "prepublishOnly": "npm run lint",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint 'src/**/*' --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint 'src/**/*' --quiet --fix"
+  },
+  "author": "Anton Zaporozhets",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-native": "^0.63.4"
+  },
+  "devDependencies": {
+    "@types/react-native": "^0.63.48",
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-typescript-prettier": "^4.1.0",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.5"
+  }
+}
